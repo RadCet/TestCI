@@ -1,6 +1,6 @@
 ### test CI
 def sum(a,b):
-	return a+b
+	return a+1
 
 def sub(a,b):
 	return a-b if a>b else b-a
