@@ -3,7 +3,7 @@ def sum(a,b):
 	return a+b
 
 def sub(a,b):
-	return a>b?a-b:b-a
+	return a-b if a>b else b-a
 
 def multiple(a,b):
 	return a*b
